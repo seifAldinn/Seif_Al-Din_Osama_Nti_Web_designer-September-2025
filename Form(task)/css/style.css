@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cont{
+width: 100%;
+height: 100vh;
+background-color:  #8369ee;
+/* background-color:  linear-gradient(120deg ,#9684db 50% ,#8369ee 100%); */
+padding: 5%;
+
+}
+.float { 
+text-align: center; 
+margin: auto;
+width: 61.1%;
+height: 90%;
+background-color: gainsboro;
+border-radius: 7px;
+box-shadow: -4px 4px 8px #00000033
+            , 4px 4px 8px #00000033
+            , 0 6px 12px #00000040;
+}
+             /* LEFT SECTION */
+
+.left-sec{
+width: 50%  ;
+height: 100%;
+background-color: #02b3d2;
+color: #f2faee;
+display: inline-block;
+box-sizing: border-box;
+ /* problem solved */
+vertical-align: top;
+text-align: center;
+padding: 15% 4%;
+border-radius: 7px 0 0 7px;
+}
+.left-sec h1{
+display: inline-block;
+font-weight: 900;
+font-size: 40px;
+margin-bottom: 3%;
+}
+.left-sec p{
+    font-weight: 100;
+}
+.margin-top{
+    margin-top: 9%;
+}
+/* RIGHT SECTION  */
+.right-sec{
+background-color: #ffffff;
+width: 50%;
+height: 100%;
+display: inline-block;
+box-sizing: border-box;
+vertical-align: top;
+border-radius:0 7px 7px 0;
+
+
+}
+.right-sec  h2{
+font-weight: 900 ;
+font-size: 40px;
+display:  block ;
+padding: 35px;
+text-align: center;
+
+}
+.right-sec form{
+width: 70%;
+margin: auto;
+max-height:95% ;
+background-color: #ffffff;
+}
+.right-sec form input{
+width: 100%;
+height: 6vh;
+padding-left: 15px;
+margin-bottom: 14px;
+background-color: #eeeeee;
+border: none;
+/* margin-bottom: 70px; */
+
+}
+.right-sec form fieldset{
+text-align: left;
+border: none;
+font-size: small;
+}
+
+.right-sec form textarea{
+width: 100%;
+height: 15vh;
+padding: 20px;
+border: none;
+background-color: #eeeeee;
+margin-bottom: 5px;
+}
+.right-sec .submit{
+display: inline-block;
+width: 55%;
+margin-bottom: 0;
+/* margin-left: auto;
+margin-right: auto; */
+
+
+background-color: #02b3d2;
+color: #ffffff;
+padding-right:20px ; 
+border-radius: 50px;
+}
