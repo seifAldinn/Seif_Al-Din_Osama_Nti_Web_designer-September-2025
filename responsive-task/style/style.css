@@ -1,0 +1,440 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    color: #2B2B2B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.w-80--m-auto{
+    width: 80%;
+    margin: auto;
+}
+:root{
+--primecolor:#285E67
+
+}
+.oak-btn{
+    font-size: 21px;
+    font-weight: 600;
+    padding: 1% 5.5% ;
+    border-radius: 30px;
+    border: 1px solid var(--primecolor);
+}
+.margin-right{
+    margin-right: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.nav{
+    width: 80%;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 2% 0;
+}
+.logo{
+    display: flex;
+    width: 5%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px   ;
+}
+.logo a{
+    font-size: 21px;
+    font-weight: 600    ;
+}
+ nav ul{
+    display: flex   ;
+    width: 30%;
+
+
+}
+.hidden-btn{
+    display: none;
+}
+  nav ul li{
+    flex: 1;
+    width: 25%;
+    justify-content: space-between;
+}
+nav ul li a{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* ----------------------------- */
+.new-era {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5% 0;
+}
+.head{
+margin:5% 0%;
+}
+.new-era h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+.new-era p{
+    font-size: 16px;
+    font-weight: 400;
+     margin-bottom: 3%;
+}
+
+.new-era .prime-btn{
+    background-color: var(--primecolor);
+    color: white;
+}
+.container{
+    /* margin-top: ; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .left-img ,.right-img{
+    width: 48%;
+
+}
+.container .left-img img ,.right-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+} 
+/* ----------------------Wellbeing----------------- */
+.Wellbeing{
+    background-color: #F4F4F4;
+/* padding: 5% 0; */
+    justify-content: space-around;
+border-radius: 20px;
+padding-top: 2%;
+}
+.welldoing-content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* padding-right: 5%; */
+
+}
+.welldoing-right-img{
+    width: 25%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.welldoing-right-img img{
+    width: 100%;
+}
+.welldoing-details{  
+width: 60%;
+padding-top: 2%;
+text-align: center;
+}   
+.welldoing-details>h2{
+    text-align:  center   ;
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 5%;
+    margin-left: 3%;
+}
+.left-items{
+    width: 100;
+display: flex;
+flex-wrap:wrap ;
+justify-content: space-around;
+padding: 10% 0%;
+position: relative;
+margin-top: 4%;
+margin-right: 18%;
+  margin-left: 18%;
+}
+.left-items img{
+position: absolute;
+bottom: 75%;
+}
+.leaf{
+    /* margin-right: 10%; */
+}
+.left-items .line{
+    width: 40%;
+    text-align: left;
+}
+/* .right-edge{
+    margin-left: 18%;
+} */
+.left-items .line>p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+     /* <!-- ----------------------fresh-organc----------- --> */
+.fresh-organc{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5% 0;
+}
+.left-img ,.right-content{
+    width: 45%;
+
+}
+.left-img img{
+    width: 100%;
+}
+.right-content{
+    margin-top: 5%;
+}
+.right-content h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.right-content>p{
+    font-size: 16px;
+    font-weight: 400;
+ margin: 5% 0;  
+}
+.right-content .item{
+    margin-top: 8%;
+    /* width: 100%;  */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 30px;
+}
+.right-content .item .left-line-icon img{
+   padding:20% ;
+    border: 2px solid var(--primecolor);
+    border-radius: 50%;
+}
+/* ---------------------You are what you eat------------ */
+
+.welldoing-reverse{
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    padding-top: 2%;
+
+}
+
+
+.welldoing-content-reverse{
+    
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.layering-img{
+    width: 30%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.layering-img img{
+    width: 100%;
+}
+
+.details{  
+width: 60%;
+padding-top: 2%;
+text-align: center;
+
+}
+.details>h2{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 600;
+    /* padding-right: 19%; */
+    padding-top: 5%;
+    /* margin-left: 5%; */
+}
+/* ---->items */
+.items{
+display: flex;
+justify-content: space-around;
+padding: 10% 0%;
+position: relative;
+margin-top: 4%;
+margin-right: 4%;
+}
+.items img{
+position: absolute;
+bottom: 75%;
+
+}
+.items .line{
+    width: 40%;
+}
+.right-edge{
+    margin-right: 18%;
+}
+.items .line>p{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+    /* <!-- ----------------------bg-section------------ --> */
+
+.bg-section{
+padding: 5% 0 19% 0;
+}
+.bg{
+    background-size: 100% 77%;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    border-radius: 50px;
+    background-image: url(../imges/wellbeing-bg.png);
+    width: 100%;
+    
+
+}
+.bg>img{
+    width: 100%;
+    height: 100%;    
+    border-radius: 50px;
+}
+.overlay{
+    /* width: 100%; */
+    text-align: center;
+    /* position: absolute; */
+    /* top:  16%;
+    left: 5.5%; */
+}
+.overlay>img{
+    border-radius: 0px;
+    margin-top: 0.7%;
+    margin-bottom: 1%;
+}
+.overlay h2{
+    font-size: 37px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 3.5%;
+}
+.overlay p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 24px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 3.8%;
+}
+.overlay .transparent-btn{
+    margin:  5% 0%;
+    color: white;
+    border-color: white;
+}
+
+.pink-overlay{
+    width: 77.3%;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5% 5.5%;
+    margin-top: 5%;
+    background-color: #FCE2D7   ;
+    /* position: absolute; */
+    top: 69.5%;
+    left: 5.8%;
+    /* display: none; */
+}
+.pink-overlay .icon{
+    width: 25%;
+}
+.pink-overlay img{
+    width: 82px;
+    height: 82px;
+}
+.pink-overlay .icon h3{
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 4%;
+}
+
+/* -----------------------footer--------------- */
+footer{
+    background-color: #285E67;
+    padding: 5% 0;
+
+}
+.parent{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.parent nav{
+    width: 100%;
+}
+.two-rows{
+    display: none;
+}
+.parent nav ul{
+    width: 30%;
+    display: flex;
+flex-wrap: wrap;
+}
+.parent nav ul li a{
+    color: white;
+}
+.parent .logo , .icons i{
+    color: white;
+    font-size: 25px;
+}
+.parent .logo {
+    margin-bottom: 1%;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
