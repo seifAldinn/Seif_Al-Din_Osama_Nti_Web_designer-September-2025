@@ -41,7 +41,6 @@ a{
 
 
 
-
 .nav{
     width: 80%;
     margin: auto;
@@ -125,76 +124,45 @@ margin:5% 0%;
 /* ----------------------Wellbeing----------------- */
 .Wellbeing{
     background-color: #F4F4F4;
-/* padding: 5% 0; */
-    justify-content: space-around;
-border-radius: 20px;
-padding-top: 2%;
+    width: 80% ;
+    margin: auto;
+   
 }
-.welldoing-content{
-display: flex;
-justify-content: space-between;
-align-items: center;
-/* padding-right: 5%; */
+.welldoing-container{
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    column-gap: 4%;
 
+}
+.wellbeing-content{ 
+width: 70%;
+padding: 5%;
+}
+.wellbeing-content h3{
+    font-size: 40px;
+
+}
+.left-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    column-gap: 6%;
+}
+.wellbeing-logo{
+    width: 30%;
+}
+.wellbeing-logo .leaf{
+    padding: 3%;
+    display: inline-block;
+    border-radius: 6%;
+}
+.wellbeing-logo p{
+    margin-top: 5%;
 }
 .welldoing-right-img{
-    width: 25%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    align-self: flex-end;
 }
-.welldoing-right-img img{
-    width: 100%;
-}
-.welldoing-details{  
-width: 60%;
-padding-top: 2%;
-text-align: center;
-}   
-.welldoing-details>h2{
-    text-align:  center   ;
-    font-size: 50px;
-    font-weight: 600;
-    padding-top: 5%;
-    margin-left: 3%;
-}
-.left-items{
-    width: 100;
-display: flex;
-flex-wrap:wrap ;
-justify-content: space-around;
-padding: 10% 0%;
-position: relative;
-margin-top: 4%;
-margin-right: 18%;
-  margin-left: 18%;
-}
-.left-items img{
-position: absolute;
-bottom: 75%;
-}
-.leaf{
-    /* margin-right: 10%; */
-}
-.left-items .line{
-    width: 40%;
-    text-align: left;
-}
-/* .right-edge{
-    margin-left: 18%;
-} */
-.left-items .line>p{
-    text-align: left;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-
-
-
-
-
 
      /* <!-- ----------------------fresh-organc----------- --> */
 .fresh-organc{
@@ -225,10 +193,9 @@ bottom: 75%;
 }
 .right-content .item{
     margin-top: 8%;
-    /* width: 100%;  */
+
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
     gap: 30px;
 }
 .right-content .item .left-line-icon img{
@@ -240,43 +207,35 @@ bottom: 75%;
 
 .welldoing-reverse{
     background-color: #F4F4F4;
-    border-radius: 20px;
-    padding-top: 2%;
-
+    border-radius: 6%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    width: 80%;
+    margin: auto;
 }
-
-
-.welldoing-content-reverse{
-    
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-.layering-img{
-    width: 30%; 
+.welldoing-reverse-container{
     display: flex;
-    justify-content: center;
     align-items: center;
+    column-gap: 2%;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
 
-}
-.layering-img img{
-    width: 100%;
-}
 
-.details{  
-width: 60%;
-padding-top: 2%;
-text-align: center;
 
-}
-.details>h2{
-    text-align: left;
-    font-size: 50px;
-    font-weight: 600;
-    /* padding-right: 19%; */
-    padding-top: 5%;
-    /* margin-left: 5%; */
-}
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---->items */
 .items{
 display: flex;
@@ -371,7 +330,6 @@ padding: 5% 0 19% 0;
     /* position: absolute; */
     top: 69.5%;
     left: 5.8%;
-    /* display: none; */
 }
 .pink-overlay .icon{
     width: 25%;
@@ -422,12 +380,6 @@ flex-wrap: wrap;
     display: flex;
     gap: 20px;
 }
-
-
-
-
-
-
 
 
 
