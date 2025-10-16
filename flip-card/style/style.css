@@ -114,16 +114,39 @@ body{
     gap: 50px;
     margin-top: 10%;
 }
-.send>img{
-    width: 12%;
-    transform: rotate(45deg);
+.send-details>i{
+    font-size: 25px;
+    color: #19ABFE;
+    border: 3px solid #19ABFE;
+    border-radius: 50%   ;
+    width: 50px;
+    height: 50px  ;
+    line-height: 2
 }
 
 .send h6{
     color: #19ABFE;
 }
-
-
+.send-details{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+}
+.send-details:hover{
+background-color: #19ABFE;
+justify-content: center;
+    
+}
+.send-details:hover h6{
+ color: white;
+    
+}
+.send-details:hover  i {
+ color: white;
+    
+}
 
 
 
