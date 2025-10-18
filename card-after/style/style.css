@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+body{
+    background-color: rgb(48, 44, 44);
+}
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 5% 0;
+}
+.card{
+    width: 28%;
+    background-color: #060303b1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1% 1%;
+    gap: 20px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: all ease-out 0.3s;;
+}
+.after-first::after{
+    content: "";
+    position: absolute;
+    top: -15.1%;
+    right: -7.1%;
+    background-color: green;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%  ;
+    transition: all ease-out 0.3s;;
+}
+ .card:hover{
+    scale: 1.11;
+}
+.card:hover::after{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    border-radius: 20px;
+    
+}
+
+
+
+
+
+
+
+.card .head h2{
+    font-size: 35px;
+    text-align: left;
+    z-index: 2;
+    position: relative;
+}
+.card .head{
+    width: 80%;
+    margin: auto;
+}
+.card .bottom{
+    width: 80%;
+    margin: auto;
+}
+.card .bottom p{
+    font-size: 20px;
+    z-index: 10;
+    position: relative;
+}
+.card .bottom span{
+    color: orange;
+    z-index: 10;
+    position: relative;
+}
+
+
+.after-second::after{
+    background-color: crimson;
+     content: "";
+    position: absolute;
+    top: -15.1%;
+    right: -7.1%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%  ;
+    transition: all ease-out 0.3s;
+}
+.after-thrid::after{
+    background-color: orangered;
+     content: "";
+    position: absolute;
+    top: -15.1%;
+    right: -7.1%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%  ;
+    transition: all ease-out 0.3s;
+}
+.after-fourth::after{
+    background-color:palevioletred;
+     content: "";
+    position: absolute;
+    top: -15.1%;
+    right: -7.1%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%  ;
+    transition: all ease-out 0.3s;
+}
+.after-fifth::after{
+    background-color: blueviolet;
+     content: "";
+    position: absolute;
+    top: -15.1%;
+    right: -7.1%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%  ;
+    transition: all ease-out 0.3s;
+}
+.after-sixth::after{
+    background-color: blue;
+     content: "";
+    position: absolute;
+    top: -15.1%;
+    right: -7.1%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%  ;
+    transition: all ease-out 0.3s;
+}
